@@ -1,13 +1,13 @@
 import re
 
-def findFirstEmail(text):
+def validEmailID(text):
     pattern = r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'
     match = re.search(pattern, text)
     return match.group() if match else None
 
-text1 = "Please contact us at support@gmail.com for help."
-text2 = "No email address here!"
+text1 = "My email id is 2105RahulKumar@gmail.com"
+text2 = "Hi my name is Rahul"
 
-print(findFirstEmail(text1))
-print(findFirstEmail(text2))
+print(validEmailID(text1))
+print(validEmailID(text2))
 

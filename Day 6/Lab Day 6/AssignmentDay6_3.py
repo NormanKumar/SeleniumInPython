@@ -7,5 +7,5 @@ match = re.search(pattern, text)
 
 if match:
     print("Full match:", match.group(0))
-    print("Employee prefix:", match.group(1))
+    print("Employee ID:", match.group(1))
     print("Department:", match.group(2))
