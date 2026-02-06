@@ -37,7 +37,7 @@ try:
     rows = driver.find_elements(By.XPATH, "//table//tbody/tr")
 
     if rows:
-        print("✅ Orders found:")
+        print("Orders found:")
         for row in rows:
             print(row.text)
     else:
