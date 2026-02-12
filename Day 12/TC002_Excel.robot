@@ -27,6 +27,6 @@ Orangehrmlogin With Excel
     Click Link    Logout
 
 
-# *** Test Cases ***
-# Login with user from Excel
-#     [Tags]    DDT
+*** Test Cases ***
+Login with user from Excel
+    [Tags]    DDT
